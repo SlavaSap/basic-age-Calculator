@@ -1,7 +1,10 @@
-from math import *
-from unittest import result
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-age = int(input("enter you age: "))
-age1 = int(input("how much older do you want to become: "))
-result = age + age1
-print(result)
+print("Hello", name)
+
+change = int(input("How many years do you want to change your age by? "))
+
+result = age + change
+
+print("Okay, your age is", result)
